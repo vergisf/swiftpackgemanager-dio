@@ -16,7 +16,7 @@
 
 <h2>Materiais de referência:</h2>
 <ul>
-    <li><b>Documentação SwiftPM</b>:
+    <li><b>Documentação</b>:
         <ul><li><a href="https://www.swift.org/package-manager/" target="_blank"> Swift Packge Manager</a>.</li></ul>
         <ul><li><a href="https://github.com/WenchaoD/FSCalendar" target="_blank"> FSCalendar</a>.</li></ul>
     </li>
