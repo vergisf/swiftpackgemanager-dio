@@ -16,6 +16,7 @@
 		9BDA98D027A32BC7009FA7A4 /* swiftpackgemanager_dioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDA98CF27A32BC7009FA7A4 /* swiftpackgemanager_dioTests.swift */; };
 		9BDA98DA27A32BC7009FA7A4 /* swiftpackgemanager_dioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDA98D927A32BC7009FA7A4 /* swiftpackgemanager_dioUITests.swift */; };
 		9BDA98DC27A32BC7009FA7A4 /* swiftpackgemanager_dioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDA98DB27A32BC7009FA7A4 /* swiftpackgemanager_dioUITestsLaunchTests.swift */; };
+		9BDA98EA27A32D39009FA7A4 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 9BDA98E927A32D39009FA7A4 /* FSCalendar */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BDA98EA27A32D39009FA7A4 /* FSCalendar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = "swiftpackgemanager-dio";
+			packageProductDependencies = (
+				9BDA98E927A32D39009FA7A4 /* FSCalendar */,
+			);
 			productName = "swiftpackgemanager-dio";
 			productReference = 9BDA98B527A32BC5009FA7A4 /* swiftpackgemanager-dio.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 9BDA98AC27A32BC5009FA7A4;
+			packageReferences = (
+				9BDA98E827A32D39009FA7A4 /* XCRemoteSwiftPackageReference "FSCalendar" */,
+			);
 			productRefGroup = 9BDA98B627A32BC5009FA7A4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -598,6 +606,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9BDA98E827A32D39009FA7A4 /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9BDA98E927A32D39009FA7A4 /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9BDA98E827A32D39009FA7A4 /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9BDA98AD27A32BC5009FA7A4 /* Project object */;
 }
