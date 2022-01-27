@@ -18,5 +18,6 @@
 <ul>
     <li><b>Documentação SwiftPM</b>:
         <ul><li><a href="https://www.swift.org/package-manager/" target="_blank"> Swift Packge Manager</a>.</li></ul>
+        <ul><li><a href="https://github.com/WenchaoD/FSCalendar" target="_blank"> FSCalendar</a>.</li></ul>
     </li>
 </ul>
